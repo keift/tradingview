@@ -1,7 +1,7 @@
 {
   "name": "tradingview",
-  "version": "0.0.1",
-  "description": "Short yet unique IDs.",
+  "version": "1.0.0",
+  "description": "Scraping from TradingView.",
   "license": "MIT",
   "homepage": "https://github.com/keift/tradingview",
   "bugs": "https://github.com/keift/tradingview/issues",
@@ -16,13 +16,12 @@
   },
   "dependencies": {
     "@types/lodash.merge": "^4.6.9",
-    "@types/node": "latest",
     "lodash.merge": "^4.6.2"
   },
   "devDependencies": {
-    "neatlint": "^1.1.27",
-    "prettier": "^3.7.4",
-    "tsup": "^8.5.1"
+    "prettier": "latest",
+    "rulint": "latest",
+    "tsup": "latest"
   },
   "repository": {
     "type": "git",
