@@ -5,12 +5,12 @@
   "license": "MIT",
   "homepage": "https://github.com/keift/tradingview",
   "bugs": "https://github.com/keift/tradingview/issues",
-  "main": "./dist/main.js",
+  "main": "./dist/main.cjs",
   "module": "./dist/main.mjs",
-  "types": "./dist/main.d.ts",
+  "types": "./dist/main.d.mts",
   "scripts": {
     "tests": "bun run lint && bun test",
-    "build": "tsup",
+    "build": "tsdown",
     "prettier": "prettier --write ./",
     "lint": "eslint ./"
   },
@@ -21,7 +21,7 @@
   "devDependencies": {
     "prettier": "latest",
     "rulint": "latest",
-    "tsup": "latest"
+    "tsdown": "latest"
   },
   "repository": {
     "type": "git",

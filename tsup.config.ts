@@ -1,12 +1,6 @@
-import { defineConfig } from 'tsup';
+import { defineConfig } from 'tsdown';
 
 export default defineConfig({
-  bundle: true,
-  cjsInterop: true,
-  clean: true,
-  dts: true,
-
-  outDir: './dist',
   format: ['esm', 'cjs'],
   entry: ['./src/main.ts']
 });
