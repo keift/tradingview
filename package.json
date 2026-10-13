@@ -30,8 +30,7 @@
   "devDependencies": {
     "prettier": "latest",
     "rulint": "latest",
-    "tsdown": "latest",
-    "unrun": "latest"
+    "tsdown": "latest"
   },
   "keywords": [
     "tradingview"
