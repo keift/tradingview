@@ -3,9 +3,7 @@ import WebSocket from 'ws';
 import type { TradingViewOptions } from '../types/tradingview_options';
 
 export class TradingView {
-  constructor(options: TradingViewOptions) {
-    
-  }
+  constructor(options: TradingViewOptions) {}
 
   private async ws() {
     const ws = new WebSocket('wss://data.tradingview.com/socket.io/websocket?from=chart&type=chart', {
