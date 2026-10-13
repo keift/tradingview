@@ -6,7 +6,7 @@
   "homepage": "https://github.com/keift/tradingview",
   "repository": "https://github.com/keift/tradingview",
   "scripts": {
-    "tests": "bun run lint && bun test",
+    "tests": "bun check && bun run lint && bun test",
     "retouch": "bun run prettier",
     "build": "tsdown",
     "lint": "eslint ./",
@@ -24,7 +24,8 @@
   },
   "dependencies": {
     "@types/lodash.merge": "^4.6.9",
-    "lodash.merge": "^4.6.2"
+    "lodash.merge": "^4.6.2",
+    "ws": "^8.22.0"
   },
   "devDependencies": {
     "prettier": "latest",
